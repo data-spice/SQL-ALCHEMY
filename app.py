@@ -1,16 +1,28 @@
-from sqlalchemy import create_engine,Column,Integer,String
-from sqlalchemy.orm import declarative_base
+from models import User, engine
+from sqlalchemy.orm import sessionmaker
 
-postgres_db="postgresql+psycopg2://vic:Vatika%4024.sql@127.0.0.1:5432/my_db"
+Session=sessionmaker(bind=engine)
+session=Session()
+# user=User(name="John Doe",age=30)
+# user_2=User(name="Victor Mwaniki",age=45)
+# user_3=User(name="Shantel Wanjiku",age=28)
+# session.add_all([user,user_2,user_3])
+# session.commit()
 
-engine=create_engine(postgres_db)
-Base= declarative_base()
+# users=session.query(User).all()
 
-class User(Base):
-    __tablename__="users"
-    id=Column(Integer,primary_key=True)
-    name=Column(String)
-    age=Column(Integer)
+# user=users[0]
+# print(user)
+# print(user.id)
+# print(user.name)
+# print(user.age)
 
-Base.metadata.create_all(engine)
+# for user in users:
+#     print(user.id,user.name,user.age)
 
+# user=session.query(User).filter_by(age=10).one_or_none()
+
+user=session.query(User).filter_by(id=1).first()
+
+session.delete(user)
+session.commit()
