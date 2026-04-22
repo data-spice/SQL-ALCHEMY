@@ -1,0 +1,121 @@
+order_id,customer_name,city,product,quantity,price,order_date,status
+0.0,John ,Nakuru,Monitor,2,1000,2025-07-17,Completed
+1.0,John,Nakuru,Monitor,two,"1,200",??,pending
+2.0,Pat,,Keyboard,1,2000,2025-10-30,CANCELLED
+3.0,Mike,NAIROBI,Phone,3,1500,2026-03-31,completed 
+4.0,Sarah, Eldoret ,Mouse,two,2000,2026-03-30,pending
+5.0,Mary ,Mombasa,laptop,3,,2025-10-18,pending
+6.0,Vic,Mombasa,Tablet,two,2000,2025-10-10,CANCELLED
+7.0,Pat,nyeri,Laptop,2,1000,2025-09-29,CANCELLED
+,Sam ,nyeri,Monitor,,,2025-05-28,completed 
+9.0,Alex, Eldoret ,laptop,two,,2026-02-11,
+10.0,John ,Kisumu,Tablet,,"1,200",??,completed 
+11.0,Chris,Nairobi,Phone,two,1500,2025-10-30,Completed
+12.0,Alex, Eldoret ,Tablet,two,1000,2025-11-21,
+13.0,Alex,Kisumu,Laptop,two,1500,2026-02-24,CANCELLED
+14.0,Jane,Nakuru,Phone,1,,2025-07-24,pending
+15.0,Chris ,Kisumu,Keyboard,two,"1,200",2026-01-04,
+16.0,Vic ,NAIROBI,Mouse,,"1,200",2025-12-17,pending
+,John,Nakuru,Monitor,1,1000,2026-03-23,pending
+,John ,Mombasa,Monitor,3,,2026-02-14,
+19.0,Vic ,NAIROBI,Monitor,1,1000,2025-10-23,completed 
+20.0,John,Mombasa,Laptop,,1500,2026-02-26,pending
+21.0,Pat,NAIROBI,Tablet,3,,2026-03-15,completed 
+22.0,Pat,Nairobi,Phone,2,2000,2025-08-19,pending
+23.0,John,Nairobi,laptop,3,,2025-05-01,
+24.0,Chris, Eldoret ,Monitor,1,"1,200",2026-03-22,CANCELLED
+,Sam,Kisumu,Laptop,two,1000,2026-03-18,
+,Vic,Nakuru,Laptop,two,1000,2025-06-28,
+27.0,Jane,nyeri,Monitor,3,,2025-05-27,CANCELLED
+28.0,Mary,Mombasa,Phone,two,2000,2026-02-14,CANCELLED
+29.0,Vic,Kisumu,PHONE,two,1500,2025-05-23,
+,Pat,Mombasa,Tablet,3,1000,2025-07-13,pending
+31.0,Sam,nyeri,Monitor,3,"1,200",2026-03-27,Completed
+32.0,Jane,nyeri,Tablet,3,2000,2025-07-14,completed 
+33.0,Mary,Kisumu,Laptop,3,"1,200",2025-09-14,pending
+,Mike ,Nairobi,Mouse,2,2000,2025-10-23,
+35.0,Sarah ,Kisumu,Monitor,2,2000,2026-04-10,pending
+36.0,Mike ,NAIROBI,Monitor,3,2000,2026-02-26,completed 
+37.0,Chris,,Mouse,3,2000,2025-05-20,pending
+38.0,Jane , Eldoret ,Mouse,two,,2025-07-22,CANCELLED
+39.0,Mary , Eldoret ,Tablet,two,1500,??,
+40.0,Mike,Mombasa,laptop,two,2000,2025-04-25,completed 
+,Pat,Nakuru,Mouse,,1000,2025-11-04,
+42.0,Mary , Eldoret ,Keyboard,,1500,2025-11-22,
+43.0,Sarah,NAIROBI,Tablet,two,"1,200",2025-07-16,Completed
+44.0,Vic,nyeri,PHONE,,,2025-08-04,completed 
+45.0,Alex, Eldoret ,Mouse,1,2000,2025-12-28,pending
+46.0,John,,Phone,,,2025-07-02,pending
+47.0,Sarah,Nakuru,Tablet,1,1000,2025-12-31,pending
+48.0,Pat,Nakuru,Phone,,2000,2025-05-16,
+49.0,Sam,,laptop,two,,2025-08-22,completed 
+50.0,Vic , Eldoret ,PHONE,2,1500,2025-04-22,CANCELLED
+51.0,Mike,Mombasa,Tablet,2,2000,2026-02-03,pending
+,Sarah,,laptop,1,2000,2025-10-05,
+53.0,John ,NAIROBI,PHONE,1,1500,2025-10-05,completed 
+54.0,Pat ,Nakuru,PHONE,2,1500,2026-04-08,completed 
+55.0,Sarah ,,Tablet,two,"1,200",??,completed 
+56.0,John,NAIROBI,Tablet,,2000,??,completed 
+57.0,Chris,NAIROBI,Keyboard,,1500,2025-08-25,Completed
+58.0,John ,nyeri,Monitor,1,1000,2025-12-17,pending
+59.0,Sam,Kisumu,PHONE,1,"1,200",2025-08-27,CANCELLED
+60.0,Alex,Mombasa,Tablet,3,1000,2025-11-14,
+61.0,Sarah,Nakuru,Phone,two,2000,2025-11-19,
+62.0,Sam ,nyeri,laptop,3,1000,2025-10-30,Completed
+63.0,Chris,nyeri,PHONE,2,,2025-07-29,CANCELLED
+64.0,Pat ,,laptop,two,1500,2025-12-18,Completed
+65.0,Chris,,laptop,3,1000,2025-11-07,pending
+66.0,Mike ,nyeri,Keyboard,two,1500,2025-08-01,pending
+,Sarah,Nakuru,PHONE,,,2026-03-06,CANCELLED
+68.0,Vic,nyeri,PHONE,two,"1,200",2025-07-15,CANCELLED
+69.0,Chris, Eldoret ,Monitor,1,2000,2025-07-22,pending
+70.0,Chris, Eldoret ,Phone,2,1500,2026-01-21,CANCELLED
+,Pat,Nairobi,Laptop,two,1500,2026-02-17,completed 
+72.0,John,,PHONE,,1500,2026-03-27,CANCELLED
+73.0,Chris,Mombasa,laptop,,1000,2025-05-06,Completed
+74.0,Sam ,Mombasa,Monitor,1,"1,200",2025-06-16,
+75.0,Vic ,NAIROBI,PHONE,,1500,2025-09-15,CANCELLED
+76.0,John,Mombasa,Monitor,2,1500,2026-02-01,pending
+77.0,Mary,NAIROBI,PHONE,two,,2025-12-25,CANCELLED
+78.0,Chris,Nakuru,Keyboard,two,2000,2025-07-18,pending
+79.0,Jane ,Mombasa,Laptop,2,1500,2025-07-05,CANCELLED
+80.0,Chris,NAIROBI,Keyboard,two,"1,200",2026-03-12,
+,Sarah , Eldoret ,Laptop,1,2000,2025-07-02,
+82.0,Jane,Kisumu,PHONE,two,,2026-01-20,
+83.0,Chris ,,Mouse,,1500,2026-02-28,pending
+84.0,Chris,NAIROBI,Laptop,,1000,2025-11-08,Completed
+85.0,Sarah ,Nairobi,PHONE,,1000,2025-10-19,
+86.0,Chris ,Nakuru,Keyboard,two,2000,2025-09-10,completed 
+87.0,Sam ,Kisumu,Keyboard,two,1000,2026-03-06,pending
+88.0,Mary,Mombasa,Tablet,,1500,2025-12-04,completed 
+89.0,Chris,Kisumu,laptop,2,"1,200",2026-02-12,Completed
+90.0,Sarah, Eldoret ,Laptop,3,1500,2025-06-30,completed 
+91.0,Chris,nyeri,Mouse,two,"1,200",2025-11-09,pending
+92.0,Vic,Nakuru,laptop,1,1500,2025-04-26,completed 
+93.0,Alex,Nairobi,Tablet,two,"1,200",2026-03-02,completed 
+,Chris,Kisumu,laptop,2,1000,2025-12-08,CANCELLED
+95.0,Sarah,nyeri,laptop,3,,2026-04-04,
+,Jane ,Mombasa,laptop,1,1000,2025-05-02,CANCELLED
+97.0,John,Nairobi,Keyboard,3,1500,2025-12-18,
+98.0,Alex,Mombasa,laptop,two,2000,2025-06-28,pending
+99.0,Jane,Nairobi,PHONE,3,"1,200",2025-09-08,CANCELLED
+100.0,Jane,NAIROBI,Keyboard,,1500,2025-10-08,completed 
+101.0,Sarah, Eldoret ,Keyboard,1,,2025-07-07,Completed
+102.0,Chris , Eldoret ,Monitor,two,1500,2026-01-15,
+103.0,Alex,Nairobi,Keyboard,,1000,2026-02-14,Completed
+104.0,Mike ,Kisumu,Monitor,2,"1,200",2025-10-17,
+105.0,Jane , Eldoret ,PHONE,3,1500,2025-08-26,Completed
+106.0,Vic ,NAIROBI,Mouse,1,,??,
+107.0,Mike, Eldoret ,laptop,3,1000,2025-08-24,Completed
+108.0,Pat,Nakuru,Phone,,1500,2026-02-22,pending
+,John,,Phone,1,2000,2026-02-12,completed 
+110.0,Pat,Kisumu,laptop,1,,2025-11-30,Completed
+111.0,Vic,Nakuru,Mouse,1,1500,2025-05-27,CANCELLED
+,Jane,Mombasa,PHONE,1,2000,2025-06-21,Completed
+,Mike,Kisumu,Monitor,1,"1,200",2026-01-02,pending
+114.0,Alex ,Nairobi,Keyboard,2,2000,2026-01-23,Completed
+115.0,John,nyeri,Monitor,two,1500,??,CANCELLED
+,Sarah,Mombasa,PHONE,,1500,2026-02-26,completed 
+117.0,Sam, Eldoret ,PHONE,1,1000,2025-09-29,completed 
+118.0,Chris ,,Phone,1,1500,2026-03-20,pending
+119.0,Sam,nyeri,laptop,two,"1,200",2025-08-07,
