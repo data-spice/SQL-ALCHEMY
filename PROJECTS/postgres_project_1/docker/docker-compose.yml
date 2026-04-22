@@ -1,0 +1,20 @@
+
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: etl_postgres_1
+    restart: always
+
+    environment:
+        POSTGRES_USER: user
+        POSTGRES_PASSWORD: pass
+        POSTGRES_DB: etl1_db
+    ports:
+      - "5433:5432"
+    
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ../data:/data
+volumes:
+  pgdata:
